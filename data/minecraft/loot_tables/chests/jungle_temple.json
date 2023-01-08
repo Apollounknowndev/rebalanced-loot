@@ -107,7 +107,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 13,
+          "weight": 19,
           "name": "minecraft:gold_ingot",
           "functions": [
             {
@@ -118,20 +118,6 @@
                   "min": 8,
                   "max": 12
                 }
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 7,
-          "name": "minecraft:golden_carrot",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 4
               }
             }
           ]

@@ -23,7 +23,7 @@
             },
             {
               "function": "minecraft:set_potion",
-              "id": "minecraft:poison"
+              "id": "minecraft:long_poison"
             }
           ]
         },
