@@ -1,0 +1,27 @@
+modLoader = 'lowcodefml'
+loaderVersion = '[41,)'
+license="MIT"
+
+[[mods]]
+  modId="rebalanced_loot"
+  version="1.0.1a"
+  displayName="Rebalanced Loot"
+  logoFile="pack.png"
+  authors="Apollo"
+  description='''
+  Different chest loot that actually makes sense and isn't overpowered!
+  '''
+
+  [[dependencies.rebalanced_loot]]
+    modId="forge"
+    mandatory=true
+    versionRange="[41,)"
+    ordering="NONE"
+    side="BOTH"
+
+  [[dependencies.rebalanced_loot]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19,1.20)"
+    ordering="NONE"
+    side="BOTH"
