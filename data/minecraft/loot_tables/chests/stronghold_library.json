@@ -2,6 +2,16 @@
   "type": "minecraft:chest",
   "pools": [
     {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:eye_armor_trim_smithing_template"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
       "rolls": {
         "type": "minecraft:uniform",
         "min": 6,

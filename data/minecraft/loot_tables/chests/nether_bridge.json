@@ -2,6 +2,20 @@
   "type": "minecraft:chest",
   "pools": [
     {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rib_armor_trim_smithing_template"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
       "rolls": {
         "min": 2,
         "max": 3
@@ -26,6 +40,11 @@
           "type": "minecraft:item",
           "weight": 6,
           "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:piglin_head"
         },
         {
           "type": "minecraft:item",
