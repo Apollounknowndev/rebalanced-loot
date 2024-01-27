@@ -1,0 +1,35 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "supported_formats": [
+      15,
+      26
+    ],
+    "description": [
+      {
+        "text": "Rebalanced Loot",
+        "color": "#b0b0b0"
+      },
+      "\n",
+      {
+        "text": "Made by ",
+        "color": "#888888"
+      },
+      {
+        "text": "Apollo",
+        "color": "#ca78e4"
+      }
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "formats": {
+          "min_inclusive": 26,
+          "max_inclusive": 26
+        },
+        "directory": "format26"
+      }
+    ]
+  }
+}
